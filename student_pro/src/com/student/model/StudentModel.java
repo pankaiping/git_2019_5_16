@@ -1,8 +1,8 @@
 package com.student.model;
 
 public class StudentModel {
-	private int id;
-	private String username;
+	private int id;  //ID
+	private String username;  //用户名
 	@Override
 	public String toString() {
 		return "StudentModel [id=" + id + ", username=" + username
@@ -18,9 +18,9 @@ public class StudentModel {
 		this.sex = sex;
 		this.love = love;
 	}
-	private String password;
-	private int sex;
-	private String love;
+	private String password;  //密码
+	private int sex;  //性别
+	private String love;  //爱好
 	public int getId() {
 		return id;
 	}
